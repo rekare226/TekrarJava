@@ -1,5 +1,7 @@
 package ders2_ArraysClassMethodlari;
 
+import ders1_Arrays.C09_EnUzınVeEnKısaKelimeBulma;
+
 public class C03_split {
     public static void main(String[] args) {
 
@@ -23,8 +25,11 @@ public class C03_split {
             }
         }
 
-        System.out.println("en uzun kelime :" +enUzun);
-        System.out.println("en kısa kelime :" +enKisa);
+        System.out.println("en uzun kelime :" +enUzun);//en uzun kelime :guzellesiyor
+        System.out.println("en kısa kelime :" +enKisa);//en kısa kelime :da
+
+        C09_EnUzınVeEnKısaKelimeBulma.enKisaEnUzunKelimeYazdir(kelimeler);//en uzun kelime :guzellesiyor
+        //en enkısa kelime :da
 
 
 

@@ -8,6 +8,17 @@ public class C09_EnUzınVeEnKısaKelimeBulma {
 
         String [] isimler={"hamza","esra","serat","ali","cansu","ramazan","ibrahim","can","yasemin"};
 
+
+
+
+
+
+    }
+
+    public static void enKisaEnUzunKelimeYazdir(String [] isimler){
+
+
+
         String enUzun=isimler[0];
         String enKısa=isimler[0];
 
@@ -27,9 +38,6 @@ public class C09_EnUzınVeEnKısaKelimeBulma {
         System.out.println("en uzun kelime :"+enUzun);
         System.out.println("en enkısa kelime :"+enKısa);
 
-
-
-        
 
 
 
