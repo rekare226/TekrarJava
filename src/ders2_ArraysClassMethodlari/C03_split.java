@@ -28,8 +28,6 @@ public class C03_split {
         System.out.println("en uzun kelime :" +enUzun);//en uzun kelime :guzellesiyor
         System.out.println("en kısa kelime :" +enKisa);//en kısa kelime :da
 
-        C09_EnUzınVeEnKısaKelimeBulma.enKisaEnUzunKelimeYazdir(kelimeler);//en uzun kelime :guzellesiyor
-        //en enkısa kelime :da
 
 
 

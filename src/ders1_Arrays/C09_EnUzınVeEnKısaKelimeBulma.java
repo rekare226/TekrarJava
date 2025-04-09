@@ -6,40 +6,37 @@ public class C09_EnUzınVeEnKısaKelimeBulma {
         //Verilen String bir array'deki
         //en uzun ve en kısa kelimeleri yazdirin
 
-        String [] isimler={"hamza","esra","serat","ali","cansu","ramazan","ibrahim","can","yasemin"};
+        String [] isimler={"essevler","hamza","esra","serat","ali","cansu","ramazan","ibrahim","can","yasemin","kudema","meridyen"};
 
-
-
-
-
+        enKisaEnUzunKelimeyiBulYazdir(isimler);
 
     }
 
-    public static void enKisaEnUzunKelimeYazdir(String [] isimler){
-
-
+    public static void enKisaEnUzunKelimeyiBulYazdir(String [] isimler){
 
         String enUzun=isimler[0];
-        String enKısa=isimler[0];
+        String enKisa=isimler[0];
 
         for (int i = 0; i < isimler.length; i++) {
 
-            if (isimler[i].length()<enKısa.length()){
+         if (   isimler[i].length()<enKisa.length()){
 
-                enKısa=isimler[i];
-            }
+             enKisa=isimler[i];
+         }
 
-            if (isimler[i].length()>enUzun.length()){
+            if (   isimler[i].length()>enUzun.length()){
 
                 enUzun=isimler[i];
             }
+
+
         }
 
+        System.out.println("en kısa kelime :"+enKisa);
         System.out.println("en uzun kelime :"+enUzun);
-        System.out.println("en enkısa kelime :"+enKısa);
 
-
+    }
 
 
     }
-}
+
